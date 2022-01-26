@@ -1797,6 +1797,27 @@
     react-router-dom "6.0.0-beta.0"
     react-use "^17.2.4"
 
+"@backstage/plugin-permission-backend@^0.4.0":
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-permission-backend/-/plugin-permission-backend-0.4.0.tgz#647696d2319a5d8cbb6a7e4b0bb9a29bae1f1fb6"
+  integrity sha512-Ry/uLi0x/2kTiEbm6bOASgCM0lqBrYvRMFiAMQGH4/F/yU3gCiNV3jlnktyCYtv7BcF/RfgjPbACfHZ09YUyaw==
+  dependencies:
+    "@backstage/backend-common" "^0.10.4"
+    "@backstage/config" "^0.1.13"
+    "@backstage/errors" "^0.2.0"
+    "@backstage/plugin-auth-backend" "^0.7.0"
+    "@backstage/plugin-permission-common" "^0.4.0"
+    "@backstage/plugin-permission-node" "^0.4.0"
+    "@types/express" "*"
+    dataloader "^2.0.0"
+    express "^4.17.1"
+    express-promise-router "^4.1.0"
+    lodash "^4.17.21"
+    node-fetch "^2.6.1"
+    winston "^3.2.1"
+    yn "^4.0.0"
+    zod "^3.11.6"
+
 "@backstage/plugin-permission-common@^0.4.0":
   version "0.4.0"
   resolved "https://registry.yarnpkg.com/@backstage/plugin-permission-common/-/plugin-permission-common-0.4.0.tgz#fb326505abdfd0eda027bb6a6c14b87068ecaa2c"
@@ -7863,7 +7884,7 @@ data-urls@^2.0.0:
     whatwg-mimetype "^2.3.0"
     whatwg-url "^8.0.0"
 
-dataloader@2.0.0:
+dataloader@2.0.0, dataloader@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/dataloader/-/dataloader-2.0.0.tgz#41eaf123db115987e21ca93c005cd7753c55fe6f"
   integrity sha512-YzhyDAwA4TaQIhM5go+vCLmU0UikghC/t9DTQYZR2M/UvZ1MdOhPezSDZcjj9uqQJOMqjLcpWtyW2iNINdlatQ==
